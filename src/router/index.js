@@ -4,6 +4,7 @@ import Router from 'vue-router'
 // import Reg from '@/reg'
 // import List from '@/components/list'
 import List2 from '@/components/list2'
+import Hello from '@/components/cmp-hello'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/list2',
       name: 'list2',
       component: List2
+    },
+    {
+      path: '/hello',
+      name: 'hello',
+      component: Hello
     }
   ]
 })

@@ -4,6 +4,7 @@ import Vue from 'vue'
 import router from './router'
 import axios from 'axios'
 import store from './store'
+import 'vue2-animate/dist/vue2-animate.min.css'
 
 Vue.config.productionTip = false
 Vue.prototype.$a = axios
